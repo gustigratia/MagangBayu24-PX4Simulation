@@ -1,7 +1,7 @@
 # Magang Bayucaraka 2024 - PX4 Simulation
 
-Nama    : \
-NRP     : 
+Nama    : Gusti Gratia Delpiera\
+NRP     : 5026231097
 
 ## Cara Pengumpulan
 - Fork repositori ini
