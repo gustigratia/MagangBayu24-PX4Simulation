@@ -27,37 +27,37 @@ public:
 				this->arm();
 			}
 
-      if(offboard_setpoint_counter_ < 50){
+      if(offboard_setpoint_counter_ < 100){
         publish_offboard_control_mode();
         publish_trajectory_setpoint(0.0,0.0,-5.0,0.0);
       }
-      else if (offboard_setpoint_counter_>= 50 && offboard_setpoint_counter_ <= 90){
+      else if (offboard_setpoint_counter_>= 100 && offboard_setpoint_counter_ <= 150){
         publish_offboard_control_mode();
         publish_trajectory_setpoint(3.0,0.0,-5.0,0.0);
       }
-      else if (offboard_setpoint_counter_ > 90 && offboard_setpoint_counter_ <= 150){
+      else if (offboard_setpoint_counter_ > 150 && offboard_setpoint_counter_ <= 200){
         publish_offboard_control_mode();
         publish_trajectory_setpoint(3.0,6.0,-5.0,1.57);
       }
-      else if (offboard_setpoint_counter_ > 150 && offboard_setpoint_counter_ <= 200){
+      else if (offboard_setpoint_counter_ > 200 && offboard_setpoint_counter_ <= 250){
         publish_offboard_control_mode();
         publish_trajectory_setpoint(-3.0,6.0,-5.0,-3.14);
       }
-      else if (offboard_setpoint_counter_ > 200 && offboard_setpoint_counter_ <= 250){
+      else if (offboard_setpoint_counter_ > 250 && offboard_setpoint_counter_ <= 300){
         publish_offboard_control_mode();
         publish_trajectory_setpoint(-3.0,0.0,-5.0,-1.57);
       }
-      else if (offboard_setpoint_counter_ > 250 && offboard_setpoint_counter_ <= 300){
+      else if (offboard_setpoint_counter_ > 300 && offboard_setpoint_counter_ <= 350){
         publish_offboard_control_mode();
         publish_trajectory_setpoint(0.0,0.0,-5.0,0.0);
       }
-      else if (offboard_setpoint_counter_ == 310){
+      else if (offboard_setpoint_counter_ == 410){
         this->land();
       }
-      if (offboard_setpoint_counter_ == 520){
+      if (offboard_setpoint_counter_ == 650){
         this->disarm();
       }
-			if (offboard_setpoint_counter_ < 610){
+			if (offboard_setpoint_counter_ < 710){
 				offboard_setpoint_counter_++;
 			}
 		};
@@ -68,7 +68,7 @@ public:
 	void disarm();
 
 private:
-	rclcpp::Publisher<px4_msgs::msg::TrajectorySetpoint>::SharedPtr trajectory_setpoint_publisher_;
+	rclcpp::Publisher<px4_msgs::msg::TrajectorySetpoint>::SharedPtr trajectory_setpoint_publisher_;//t
   rclcpp::Publisher<px4_msgs::msg::OffboardControlMode>::SharedPtr offboard_control_mode_publisher_;
   rclcpp::Publisher<VehicleCommand>::SharedPtr vehicle_command_publisher_;
 
