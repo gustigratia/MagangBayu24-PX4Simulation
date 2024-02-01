@@ -1,0 +1,63 @@
+[0.127s] Invoking command in '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone': AMENT_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone -- -j8 -l8
+[0.141s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.142s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.142s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.143s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.143s]   the cmake_policy command to set the policy and suppress this warning.
+[0.143s] 
+[0.143s] Call Stack (most recent call first):
+[0.143s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.143s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.143s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.143s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.143s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.143s]   CMakeLists.txt:19 (find_package)
+[0.143s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.143s] [0m
+[0.162s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.339s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.359s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.362s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.468s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.489s] -- Found px4_msgs: 2.0.1 (/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/share/px4_msgs/cmake)
+[0.504s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.536s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.537s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.663s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.717s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.718s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.718s] -- Configured cppcheck include dirs: 
+[0.718s] -- Configured cppcheck exclude dirs and/or files: 
+[0.718s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.718s] -- Configured cpplint exclude dirs and/or files: 
+[0.719s] -- Added test 'lint_cmake' to check CMake code style
+[0.720s] -- Added test 'uncrustify' to check C / C++ code style
+[0.720s] -- Configured uncrustify additional arguments: 
+[0.720s] -- Added test 'xmllint' to check XML markup files
+[0.720s] -- Configuring done (0.6s)
+[0.729s] -- Generating done (0.0s)
+[0.730s] -- Build files have been written to: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone
+[0.743s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/tugas2/offboard_control.cpp.o[0m
+[4.162s] [100%] [32m[1mLinking CXX executable offboard_control[0m
+[4.325s] [100%] Built target offboard_control
+[4.328s] Invoked command in '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone' returned '0': AMENT_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone -- -j8 -l8
+[4.347s] Invoking command in '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone': AMENT_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone
+[4.348s] -- Install configuration: ""
+[4.348s] -- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/offboard_control
+[4.349s] -- Set non-toolchain portion of runtime path of "/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/offboard_control" to ""
+[4.349s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/package_run_dependencies/control_drone
+[4.350s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/parent_prefix_path/control_drone
+[4.350s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/ament_prefix_path.sh
+[4.350s] -- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/ament_prefix_path.dsv
+[4.350s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/path.sh
+[4.350s] -- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/path.dsv
+[4.350s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.bash
+[4.350s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.sh
+[4.350s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.zsh
+[4.350s] -- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.dsv
+[4.350s] -- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/package.dsv
+[4.350s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/packages/control_drone
+[4.350s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/cmake/control_droneConfig.cmake
+[4.350s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/cmake/control_droneConfig-version.cmake
+[4.351s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/package.xml
+[4.352s] Invoked command in '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone' returned '0': AMENT_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone

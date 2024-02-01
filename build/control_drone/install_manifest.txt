@@ -1,0 +1,16 @@
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/rectangle_shape
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/package_run_dependencies/control_drone
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/parent_prefix_path/control_drone
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/ament_prefix_path.sh
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/ament_prefix_path.dsv
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/path.sh
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/path.dsv
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.bash
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.sh
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.zsh
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.dsv
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/package.dsv
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/packages/control_drone
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/cmake/control_droneConfig.cmake
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/cmake/control_droneConfig-version.cmake
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/package.xml
