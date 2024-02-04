@@ -31,33 +31,49 @@ public:
         publish_offboard_control_mode();
         publish_trajectory_setpoint(0.0,0.0,-5.0,0.0);
       }
-      else if (offboard_setpoint_counter_>= 100 && offboard_setpoint_counter_ <= 150){
+      else if (offboard_setpoint_counter_>= 100 && offboard_setpoint_counter_ < 150){ 
         publish_offboard_control_mode();
         publish_trajectory_setpoint(3.0,0.0,-5.0,0.0);
       }
-      else if (offboard_setpoint_counter_ > 150 && offboard_setpoint_counter_ <= 200){
+      else if(offboard_setpoint_counter_ >= 150 && offboard_setpoint_counter_ < 180){ // yaw
+        publish_offboard_control_mode();
+        publish_trajectory_setpoint(3.0,0.0,-5.0,1.57);
+      }
+      else if (offboard_setpoint_counter_ > 180 && offboard_setpoint_counter_ < 230){
         publish_offboard_control_mode();
         publish_trajectory_setpoint(3.0,6.0,-5.0,1.57);
       }
-      else if (offboard_setpoint_counter_ > 200 && offboard_setpoint_counter_ <= 250){
+      else if(offboard_setpoint_counter_ >= 230 && offboard_setpoint_counter_ < 260){ // yaw
+        publish_offboard_control_mode();
+        publish_trajectory_setpoint(3.0,6.0,-5.0,-3.14);
+      }
+      else if (offboard_setpoint_counter_ > 260 && offboard_setpoint_counter_ < 310){
         publish_offboard_control_mode();
         publish_trajectory_setpoint(-3.0,6.0,-5.0,-3.14);
       }
-      else if (offboard_setpoint_counter_ > 250 && offboard_setpoint_counter_ <= 300){
+      else if(offboard_setpoint_counter_ >= 310 && offboard_setpoint_counter_ < 340){ // yaw
+        publish_offboard_control_mode();
+        publish_trajectory_setpoint(-3.0,6.0,-5.0,-1.57);
+      }
+      else if (offboard_setpoint_counter_ > 340 && offboard_setpoint_counter_ < 390){ 
         publish_offboard_control_mode();
         publish_trajectory_setpoint(-3.0,0.0,-5.0,-1.57);
       }
-      else if (offboard_setpoint_counter_ > 300 && offboard_setpoint_counter_ <= 350){
+      else if(offboard_setpoint_counter_ >= 390 && offboard_setpoint_counter_ < 420){ // yaw
+        publish_offboard_control_mode();
+        publish_trajectory_setpoint(-3.0,0.0,-5.0,0.0);
+      }
+      else if (offboard_setpoint_counter_ > 420 && offboard_setpoint_counter_ < 470){
         publish_offboard_control_mode();
         publish_trajectory_setpoint(0.0,0.0,-5.0,0.0);
       }
-      else if (offboard_setpoint_counter_ == 410){
+      else if (offboard_setpoint_counter_ == 490){
         this->land();
       }
-      if (offboard_setpoint_counter_ == 650){
+      if (offboard_setpoint_counter_ == 690){
         this->disarm();
       }
-			if (offboard_setpoint_counter_ < 710){
+			if (offboard_setpoint_counter_ < 691){
 				offboard_setpoint_counter_++;
 			}
 		};
@@ -87,7 +103,7 @@ void OffboardControl::arm()
 }
 
 void OffboardControl::land(){
-  publish_vehicle_command(VehicleCommand::VEHICLE_CMD_NAV_LAND, 0.0);
+  publish_vehicle_command(VehicleCommand::VEHICLE_CMD_NAV_VTOL_LAND, 0.0);
   RCLCPP_INFO(this->get_logger(), "Land command send");
 }
 
@@ -118,7 +134,6 @@ void OffboardControl::publish_trajectory_setpoint(float x, float y, float z, flo
   msg.acceleration = {};
 	msg.timestamp = this->get_clock()->now().nanoseconds() / 1000;
 	trajectory_setpoint_publisher_->publish(msg);
-  RCLCPP_INFO(this->get_logger(), "Moving...");
 }
 
 void OffboardControl::publish_vehicle_command(uint16_t command, float param1, float param2)

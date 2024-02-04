@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/con
 
 # The main recursive "all" target.
 all: CMakeFiles/rectangle_shape.dir/all
+all: CMakeFiles/star_shape.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/control_drone_uninstall.dir/clean
 clean: CMakeFiles/rectangle_shape.dir/clean
+clean: CMakeFiles/star_shape.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +155,32 @@ rectangle_shape: CMakeFiles/rectangle_shape.dir/rule
 CMakeFiles/rectangle_shape.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rectangle_shape.dir/build.make CMakeFiles/rectangle_shape.dir/clean
 .PHONY : CMakeFiles/rectangle_shape.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/star_shape.dir
+
+# All Build rule for target.
+CMakeFiles/star_shape.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/star_shape.dir/build.make CMakeFiles/star_shape.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/star_shape.dir/build.make CMakeFiles/star_shape.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles --progress-num=3,4 "Built target star_shape"
+.PHONY : CMakeFiles/star_shape.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/star_shape.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/star_shape.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles 0
+.PHONY : CMakeFiles/star_shape.dir/rule
+
+# Convenience name for target.
+star_shape: CMakeFiles/star_shape.dir/rule
+.PHONY : star_shape
+
+# clean rule for target.
+CMakeFiles/star_shape.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/star_shape.dir/build.make CMakeFiles/star_shape.dir/clean
+.PHONY : CMakeFiles/star_shape.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

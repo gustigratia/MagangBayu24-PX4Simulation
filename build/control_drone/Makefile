@@ -210,6 +210,19 @@ rectangle_shape/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rectangle_shape.dir/build.make CMakeFiles/rectangle_shape.dir/build
 .PHONY : rectangle_shape/fast
 
+#=============================================================================
+# Target rules for targets named star_shape
+
+# Build rule for target.
+star_shape: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 star_shape
+.PHONY : star_shape
+
+# fast build rule for target.
+star_shape/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/star_shape.dir/build.make CMakeFiles/star_shape.dir/build
+.PHONY : star_shape/fast
+
 src/tugas2/offboard_control.o: src/tugas2/offboard_control.cpp.o
 .PHONY : src/tugas2/offboard_control.o
 
@@ -234,6 +247,30 @@ src/tugas2/offboard_control.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rectangle_shape.dir/build.make CMakeFiles/rectangle_shape.dir/src/tugas2/offboard_control.cpp.s
 .PHONY : src/tugas2/offboard_control.cpp.s
 
+src/tugas3/offboard_control.o: src/tugas3/offboard_control.cpp.o
+.PHONY : src/tugas3/offboard_control.o
+
+# target to build an object file
+src/tugas3/offboard_control.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/star_shape.dir/build.make CMakeFiles/star_shape.dir/src/tugas3/offboard_control.cpp.o
+.PHONY : src/tugas3/offboard_control.cpp.o
+
+src/tugas3/offboard_control.i: src/tugas3/offboard_control.cpp.i
+.PHONY : src/tugas3/offboard_control.i
+
+# target to preprocess a source file
+src/tugas3/offboard_control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/star_shape.dir/build.make CMakeFiles/star_shape.dir/src/tugas3/offboard_control.cpp.i
+.PHONY : src/tugas3/offboard_control.cpp.i
+
+src/tugas3/offboard_control.s: src/tugas3/offboard_control.cpp.s
+.PHONY : src/tugas3/offboard_control.s
+
+# target to generate assembly for a file
+src/tugas3/offboard_control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/star_shape.dir/build.make CMakeFiles/star_shape.dir/src/tugas3/offboard_control.cpp.s
+.PHONY : src/tugas3/offboard_control.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... control_drone_uninstall"
 	@echo "... uninstall"
 	@echo "... rectangle_shape"
+	@echo "... star_shape"
 	@echo "... src/tugas2/offboard_control.o"
 	@echo "... src/tugas2/offboard_control.i"
 	@echo "... src/tugas2/offboard_control.s"
+	@echo "... src/tugas3/offboard_control.o"
+	@echo "... src/tugas3/offboard_control.i"
+	@echo "... src/tugas3/offboard_control.s"
 .PHONY : help
 
 

@@ -1,6 +1,7 @@
 /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles/uninstall.dir
 /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles/control_drone_uninstall.dir
 /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles/rectangle_shape.dir
+/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles/star_shape.dir
 /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles/test.dir
 /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles/edit_cache.dir
 /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles/rebuild_cache.dir
