@@ -223,6 +223,43 @@ star_shape/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/star_shape.dir/build.make CMakeFiles/star_shape.dir/build
 .PHONY : star_shape/fast
 
+#=============================================================================
+# Target rules for targets named circle_shape
+
+# Build rule for target.
+circle_shape: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circle_shape
+.PHONY : circle_shape
+
+# fast build rule for target.
+circle_shape/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle_shape.dir/build.make CMakeFiles/circle_shape.dir/build
+.PHONY : circle_shape/fast
+
+src/tugas1/offboard_control.o: src/tugas1/offboard_control.cpp.o
+.PHONY : src/tugas1/offboard_control.o
+
+# target to build an object file
+src/tugas1/offboard_control.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle_shape.dir/build.make CMakeFiles/circle_shape.dir/src/tugas1/offboard_control.cpp.o
+.PHONY : src/tugas1/offboard_control.cpp.o
+
+src/tugas1/offboard_control.i: src/tugas1/offboard_control.cpp.i
+.PHONY : src/tugas1/offboard_control.i
+
+# target to preprocess a source file
+src/tugas1/offboard_control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle_shape.dir/build.make CMakeFiles/circle_shape.dir/src/tugas1/offboard_control.cpp.i
+.PHONY : src/tugas1/offboard_control.cpp.i
+
+src/tugas1/offboard_control.s: src/tugas1/offboard_control.cpp.s
+.PHONY : src/tugas1/offboard_control.s
+
+# target to generate assembly for a file
+src/tugas1/offboard_control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle_shape.dir/build.make CMakeFiles/circle_shape.dir/src/tugas1/offboard_control.cpp.s
+.PHONY : src/tugas1/offboard_control.cpp.s
+
 src/tugas2/offboard_control.o: src/tugas2/offboard_control.cpp.o
 .PHONY : src/tugas2/offboard_control.o
 
@@ -286,8 +323,12 @@ help:
 	@echo "... test"
 	@echo "... control_drone_uninstall"
 	@echo "... uninstall"
+	@echo "... circle_shape"
 	@echo "... rectangle_shape"
 	@echo "... star_shape"
+	@echo "... src/tugas1/offboard_control.o"
+	@echo "... src/tugas1/offboard_control.i"
+	@echo "... src/tugas1/offboard_control.s"
 	@echo "... src/tugas2/offboard_control.o"
 	@echo "... src/tugas2/offboard_control.i"
 	@echo "... src/tugas2/offboard_control.s"

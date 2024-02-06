@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/con
 # The main recursive "all" target.
 all: CMakeFiles/rectangle_shape.dir/all
 all: CMakeFiles/star_shape.dir/all
+all: CMakeFiles/circle_shape.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/control_drone_uninstall.dir/clean
 clean: CMakeFiles/rectangle_shape.dir/clean
 clean: CMakeFiles/star_shape.dir/clean
+clean: CMakeFiles/circle_shape.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +139,7 @@ CMakeFiles/control_drone_uninstall.dir/clean:
 CMakeFiles/rectangle_shape.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rectangle_shape.dir/build.make CMakeFiles/rectangle_shape.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rectangle_shape.dir/build.make CMakeFiles/rectangle_shape.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles --progress-num=1,2 "Built target rectangle_shape"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles --progress-num=3,4 "Built target rectangle_shape"
 .PHONY : CMakeFiles/rectangle_shape.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +165,7 @@ CMakeFiles/rectangle_shape.dir/clean:
 CMakeFiles/star_shape.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/star_shape.dir/build.make CMakeFiles/star_shape.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/star_shape.dir/build.make CMakeFiles/star_shape.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles --progress-num=3,4 "Built target star_shape"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles --progress-num=5,6 "Built target star_shape"
 .PHONY : CMakeFiles/star_shape.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +183,32 @@ star_shape: CMakeFiles/star_shape.dir/rule
 CMakeFiles/star_shape.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/star_shape.dir/build.make CMakeFiles/star_shape.dir/clean
 .PHONY : CMakeFiles/star_shape.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/circle_shape.dir
+
+# All Build rule for target.
+CMakeFiles/circle_shape.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle_shape.dir/build.make CMakeFiles/circle_shape.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle_shape.dir/build.make CMakeFiles/circle_shape.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles --progress-num=1,2 "Built target circle_shape"
+.PHONY : CMakeFiles/circle_shape.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/circle_shape.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/circle_shape.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone/CMakeFiles 0
+.PHONY : CMakeFiles/circle_shape.dir/rule
+
+# Convenience name for target.
+circle_shape: CMakeFiles/circle_shape.dir/rule
+.PHONY : circle_shape
+
+# clean rule for target.
+CMakeFiles/circle_shape.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle_shape.dir/build.make CMakeFiles/circle_shape.dir/clean
+.PHONY : CMakeFiles/circle_shape.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

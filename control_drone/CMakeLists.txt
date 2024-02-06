@@ -29,6 +29,10 @@ add_executable(star_shape src/tugas3/offboard_control.cpp)
 ament_target_dependencies(star_shape rclcpp px4_msgs)
 install(TARGETS star_shape DESTINATION lib/${PROJECT_NAME})
 
+add_executable(circle_shape src/tugas1/offboard_control.cpp)
+ament_target_dependencies(circle_shape rclcpp px4_msgs)
+install(TARGETS circle_shape DESTINATION lib/${PROJECT_NAME})
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
