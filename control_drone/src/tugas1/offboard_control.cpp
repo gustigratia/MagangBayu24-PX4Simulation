@@ -56,7 +56,7 @@ class OffboardControl : public rclcpp::Node {
     private:
         rclcpp::Publisher<px4_msgs::msg::TrajectorySetpoint>::SharedPtr trajectory_setpoint_publisher_;
         rclcpp::Publisher<px4_msgs::msg::OffboardControlMode>::SharedPtr offboard_control_mode_publisher_;
-        rclcpp::Publisher<VehicleCommand>::SharedPtr vehicle_command_publisher_;
+        rclcpp::Publisher<VehicleCommand>::SharedPtr vehicle_command_publisher_;//t
         rclcpp::TimerBase::SharedPtr timer_;
         std::atomic<uint64_t> timestamp_;
         uint64_t offboard_setpoint_counter_;
