@@ -1,0 +1,29 @@
+[0.144s] Invoking command in '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone': AMENT_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone -- -j8 -l8
+[0.163s] [ 33%] Built target star_shape
+[0.164s] [ 66%] Built target rectangle_shape
+[0.167s] [ 83%] [32mBuilding CXX object CMakeFiles/circle_shape.dir/src/tugas1/offboard_control.cpp.o[0m
+[3.653s] [100%] [32m[1mLinking CXX executable circle_shape[0m
+[3.837s] [100%] Built target circle_shape
+[3.842s] Invoked command in '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone' returned '0': AMENT_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone -- -j8 -l8
+[3.863s] Invoking command in '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone': AMENT_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone
+[3.864s] -- Install configuration: ""
+[3.865s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/rectangle_shape
+[3.865s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/star_shape
+[3.865s] -- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/circle_shape
+[3.867s] -- Set non-toolchain portion of runtime path of "/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/circle_shape" to ""
+[3.867s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/package_run_dependencies/control_drone
+[3.867s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/parent_prefix_path/control_drone
+[3.868s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/ament_prefix_path.sh
+[3.868s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/ament_prefix_path.dsv
+[3.868s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/path.sh
+[3.868s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/path.dsv
+[3.868s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.bash
+[3.868s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.sh
+[3.868s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.zsh
+[3.868s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.dsv
+[3.868s] -- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/package.dsv
+[3.868s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/packages/control_drone
+[3.868s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/cmake/control_droneConfig.cmake
+[3.868s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/cmake/control_droneConfig-version.cmake
+[3.868s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/package.xml
+[3.869s] Invoked command in '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone' returned '0': AMENT_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone

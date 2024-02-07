@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000758] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000790] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000812] (control_drone) JobQueued: {'identifier': 'control_drone', 'dependencies': OrderedDict([('px4_msgs', '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs')])}
+[0.000837] (control_drone) JobStarted: {'identifier': 'control_drone'}
+[0.100022] (-) TimerEvent: {}
+[0.135947] (control_drone) JobProgress: {'identifier': 'control_drone', 'progress': 'cmake'}
+[0.137170] (control_drone) JobProgress: {'identifier': 'control_drone', 'progress': 'build'}
+[0.137214] (control_drone) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone', '--', '-j8', '-l8'], 'cwd': '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gusti'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1655'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gusti'), ('OLDPWD', '/home/gusti'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1467'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '108263'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gusti'), ('JOURNAL_STREAM', '8:44810'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gusti'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/gusti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gusti-ubuntu:@/tmp/.ICE-unix/1701,unix/gusti-ubuntu:/tmp/.ICE-unix/1701'), ('INVOCATION_ID', '330a661b78d84d958b6d068f86a558c8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:232707ed-28c1-4673-b967-aa2a0e81663a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.158908] (control_drone) StdoutLine: {'line': b'[ 50%] Built target rectangle_shape\n'}
+[0.159192] (control_drone) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/star_shape.dir/src/tugas3/offboard_control.cpp.o\x1b[0m\n'}
+[0.163517] (control_drone) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/circle_shape.dir/src/tugas1/offboard_control.cpp.o\x1b[0m\n'}
+[0.200157] (-) TimerEvent: {}
+[0.300461] (-) TimerEvent: {}
+[0.400749] (-) TimerEvent: {}
+[0.501043] (-) TimerEvent: {}
+[0.601332] (-) TimerEvent: {}
+[0.701633] (-) TimerEvent: {}
+[0.801957] (-) TimerEvent: {}
+[0.902269] (-) TimerEvent: {}
+[1.002614] (-) TimerEvent: {}
+[1.102953] (-) TimerEvent: {}
+[1.203293] (-) TimerEvent: {}
+[1.303641] (-) TimerEvent: {}
+[1.404031] (-) TimerEvent: {}
+[1.504604] (-) TimerEvent: {}
+[1.605117] (-) TimerEvent: {}
+[1.705535] (-) TimerEvent: {}
+[1.805855] (-) TimerEvent: {}
+[1.906174] (-) TimerEvent: {}
+[2.006503] (-) TimerEvent: {}
+[2.106829] (-) TimerEvent: {}
+[2.207184] (-) TimerEvent: {}
+[2.307557] (-) TimerEvent: {}
+[2.407946] (-) TimerEvent: {}
+[2.508227] (-) TimerEvent: {}
+[2.608495] (-) TimerEvent: {}
+[2.708777] (-) TimerEvent: {}
+[2.809052] (-) TimerEvent: {}
+[2.909344] (-) TimerEvent: {}
+[3.009571] (-) TimerEvent: {}
+[3.109829] (-) TimerEvent: {}
+[3.210113] (-) TimerEvent: {}
+[3.310367] (-) TimerEvent: {}
+[3.410663] (-) TimerEvent: {}
+[3.510974] (-) TimerEvent: {}
+[3.611281] (-) TimerEvent: {}
+[3.711585] (-) TimerEvent: {}
+[3.811867] (-) TimerEvent: {}
+[3.826504] (control_drone) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable star_shape\x1b[0m\n'}
+[3.855767] (control_drone) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable circle_shape\x1b[0m\n'}
+[3.912007] (-) TimerEvent: {}
+[4.012473] (-) TimerEvent: {}
+[4.061654] (control_drone) StdoutLine: {'line': b'[100%] Built target circle_shape\n'}
+[4.062643] (control_drone) StdoutLine: {'line': b'[100%] Built target star_shape\n'}
+[4.065728] (control_drone) CommandEnded: {'returncode': 0}
+[4.081993] (control_drone) JobProgress: {'identifier': 'control_drone', 'progress': 'install'}
+[4.088253] (control_drone) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone'], 'cwd': '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gusti'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1655'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gusti'), ('OLDPWD', '/home/gusti'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1467'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '108263'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gusti'), ('JOURNAL_STREAM', '8:44810'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gusti'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/gusti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gusti-ubuntu:@/tmp/.ICE-unix/1701,unix/gusti-ubuntu:/tmp/.ICE-unix/1701'), ('INVOCATION_ID', '330a661b78d84d958b6d068f86a558c8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:232707ed-28c1-4673-b967-aa2a0e81663a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[4.090652] (control_drone) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.090882] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/rectangle_shape\n'}
+[4.091026] (control_drone) StdoutLine: {'line': b'-- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/star_shape\n'}
+[4.092101] (control_drone) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/star_shape" to ""\n'}
+[4.092214] (control_drone) StdoutLine: {'line': b'-- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/circle_shape\n'}
+[4.093309] (control_drone) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/circle_shape" to ""\n'}
+[4.093513] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/package_run_dependencies/control_drone\n'}
+[4.093657] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/parent_prefix_path/control_drone\n'}
+[4.093745] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/ament_prefix_path.sh\n'}
+[4.093847] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/ament_prefix_path.dsv\n'}
+[4.093920] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/path.sh\n'}
+[4.093994] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/path.dsv\n'}
+[4.094065] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.bash\n'}
+[4.094133] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.sh\n'}
+[4.094198] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.zsh\n'}
+[4.094262] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.dsv\n'}
+[4.094325] (control_drone) StdoutLine: {'line': b'-- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/package.dsv\n'}
+[4.094423] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/packages/control_drone\n'}
+[4.094490] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/cmake/control_droneConfig.cmake\n'}
+[4.094557] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/cmake/control_droneConfig-version.cmake\n'}
+[4.094691] (control_drone) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/package.xml\n'}
+[4.095326] (control_drone) CommandEnded: {'returncode': 0}
+[4.116328] (-) TimerEvent: {}
+[4.218358] (-) TimerEvent: {}
+[4.319180] (-) TimerEvent: {}
+[4.420182] (-) TimerEvent: {}
+[4.450409] (control_drone) JobEnded: {'identifier': 'control_drone', 'rc': 0}
+[4.451176] (-) EventReactorShutdown: {}

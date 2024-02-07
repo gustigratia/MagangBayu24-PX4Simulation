@@ -2,10 +2,8 @@
 #include "px4_msgs/msg/offboard_control_mode.hpp"
 #include "px4_msgs/msg/trajectory_setpoint.hpp"
 #include <px4_msgs/msg/vehicle_command.hpp>
-#include <px4_msgs/msg/vehicle_control_mode.hpp>
 #include <chrono>
 #include <iostream>
-#include <cmath>
 
 using namespace std::chrono;
 using namespace std::chrono_literals;
@@ -25,11 +23,11 @@ class OffboardControl : public rclcpp::Node {
 				    this->publish_vehicle_command(VehicleCommand::VEHICLE_CMD_DO_SET_MODE, 1, 6);
 				    this->arm();
 			    }
-                if (offboard_setpoint_counter_ < 190){
+                if (offboard_setpoint_counter_ < 200){
                     publish_offboard_control_mode();
                     takeoff();
                 }
-                else if(offboard_setpoint_counter_ >= 190 && offboard_setpoint_counter_ < 440){
+                else if(offboard_setpoint_counter_ >= 200 && offboard_setpoint_counter_ < 440){
                     publish_offboard_control_mode();
                     publish_trajectory_setpoint(0.1-yawcount*0.0255);
                     yawcount++;
@@ -104,7 +102,7 @@ void OffboardControl::publish_trajectory_setpoint(float yaw)
     double time_now = static_cast<double>(this->get_clock()->now().nanoseconds()) / 1e9; 
     float x = radius * cos(omega*time_now)-3;
     float y = radius * sin(omega*time_now);
-	msg.position = {-x, y,-3.0};
+	msg.position = {-x, y,-4.0};
 	msg.yaw = yaw;
 	msg.timestamp = this->get_clock()->now().nanoseconds() / 1000;
 	trajectory_setpoint_publisher_->publish(msg);
@@ -113,7 +111,7 @@ void OffboardControl::publish_trajectory_setpoint(float yaw)
 void OffboardControl::takeoff()
 {
     TrajectorySetpoint msg{};
-    msg.position = {0.0,0.0,-5.0};
+    msg.position = {0.0,0.0,-4.0};
     msg.yaw = 0.0;
     msg.timestamp = this->get_clock()->now().nanoseconds() / 1000;
 	trajectory_setpoint_publisher_->publish(msg);

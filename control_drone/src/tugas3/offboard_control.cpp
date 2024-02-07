@@ -36,7 +36,7 @@ class OffboardControl : public rclcpp::Node
           publish_offboard_control_mode();
           publish_trajectory_setpoint(0.0,0.0,-5.0,0.0);
         }
-        else if(offboard_setpoint_counter >= 100 && offboard_setpoint_counter < 150){
+        else if(offboard_setpoint_counter >= 100 && offboard_setpoint_counter < 150){ // yaw
           publish_offboard_control_mode();
           publish_trajectory_setpoint(0.0,0.0,-5.0,-rad(18));
         }
@@ -44,7 +44,7 @@ class OffboardControl : public rclcpp::Node
           publish_offboard_control_mode();
           publish_trajectory_setpoint(5.4,-1.8,-5.0,-rad(18));
         }
-        else if(offboard_setpoint_counter >= 220 && offboard_setpoint_counter < 250){
+        else if(offboard_setpoint_counter >= 220 && offboard_setpoint_counter < 250){ // yaw
           publish_offboard_control_mode();
           publish_trajectory_setpoint(5.4,-1.8,-5.0,rad(144));
         }
@@ -52,7 +52,7 @@ class OffboardControl : public rclcpp::Node
           publish_offboard_control_mode();
           publish_trajectory_setpoint(2.0,2.8,-5.0,rad(144));
         }
-        else if(offboard_setpoint_counter >= 320 && offboard_setpoint_counter < 350){
+        else if(offboard_setpoint_counter >= 320 && offboard_setpoint_counter < 350){ // yaw
           publish_offboard_control_mode();
           publish_trajectory_setpoint(2.0,2.8,-5.0,-rad(90));
         }
@@ -60,7 +60,7 @@ class OffboardControl : public rclcpp::Node
           publish_offboard_control_mode();
           publish_trajectory_setpoint(2.0,-2.8,-5.0,-rad(90));
         }
-        else if(offboard_setpoint_counter >= 420 && offboard_setpoint_counter < 450){
+        else if(offboard_setpoint_counter >= 420 && offboard_setpoint_counter < 450){ // yaw
           publish_offboard_control_mode();
           publish_trajectory_setpoint(2.0,-2.8,-5.0,rad(36));
         }
@@ -68,7 +68,7 @@ class OffboardControl : public rclcpp::Node
           publish_offboard_control_mode();
           publish_trajectory_setpoint(5.4,1.8,-5.0,rad(36));
         }
-        else if(offboard_setpoint_counter >= 520 && offboard_setpoint_counter < 550){
+        else if(offboard_setpoint_counter >= 520 && offboard_setpoint_counter < 550){ // yaw
           publish_offboard_control_mode();
           publish_trajectory_setpoint(5.4,1.8,-5.0,-rad(144));
         }

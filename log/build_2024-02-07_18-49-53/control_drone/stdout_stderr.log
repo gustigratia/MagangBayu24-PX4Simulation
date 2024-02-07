@@ -1,11 +1,16 @@
-[ 50%] Built target star_shape
-[ 75%] [32mBuilding CXX object CMakeFiles/rectangle_shape.dir/src/tugas2/offboard_control.cpp.o[0m
-[100%] [32m[1mLinking CXX executable rectangle_shape[0m
-[100%] Built target rectangle_shape
+[ 33%] Built target rectangle_shape
+[ 50%] [32mBuilding CXX object CMakeFiles/star_shape.dir/src/tugas3/offboard_control.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/circle_shape.dir/src/tugas1/offboard_control.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable circle_shape[0m
+[100%] [32m[1mLinking CXX executable star_shape[0m
+[100%] Built target circle_shape
+[100%] Built target star_shape
 -- Install configuration: ""
--- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/rectangle_shape
--- Set non-toolchain portion of runtime path of "/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/rectangle_shape" to ""
--- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/star_shape
+-- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/rectangle_shape
+-- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/star_shape
+-- Set non-toolchain portion of runtime path of "/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/star_shape" to ""
+-- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/circle_shape
+-- Set non-toolchain portion of runtime path of "/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/circle_shape" to ""
 -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/package_run_dependencies/control_drone
 -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/parent_prefix_path/control_drone
 -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/ament_prefix_path.sh

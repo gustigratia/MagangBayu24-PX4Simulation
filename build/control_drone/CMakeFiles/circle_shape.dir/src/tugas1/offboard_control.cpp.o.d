@@ -520,9 +520,4 @@ CMakeFiles/circle_shape.dir/src/tugas1/offboard_control.cpp.o: \
  /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__struct.hpp \
  /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__builder.hpp \
  /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__traits.hpp \
- /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__type_support.hpp \
- /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/include/px4_msgs/msg/vehicle_control_mode.hpp \
- /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__struct.hpp \
- /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__builder.hpp \
- /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__traits.hpp \
- /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_control_mode__type_support.hpp
+ /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_command__type_support.hpp

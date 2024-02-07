@@ -1,0 +1,32 @@
+[0.211s] Invoking command in '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone': CMAKE_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone:/opt/ros/foxy /usr/local/bin/cmake --build /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone -- -j8 -l8
+[0.232s] [ 33%] Built target rectangle_shape
+[0.234s] [ 50%] [32mBuilding CXX object CMakeFiles/star_shape.dir/src/tugas3/offboard_control.cpp.o[0m
+[0.238s] [ 66%] [32mBuilding CXX object CMakeFiles/circle_shape.dir/src/tugas1/offboard_control.cpp.o[0m
+[4.710s] [ 83%] [32m[1mLinking CXX executable circle_shape[0m
+[4.790s] [100%] [32m[1mLinking CXX executable star_shape[0m
+[5.031s] [100%] Built target circle_shape
+[5.082s] [100%] Built target star_shape
+[5.085s] Invoked command in '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone' returned '0': CMAKE_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone:/opt/ros/foxy /usr/local/bin/cmake --build /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone -- -j8 -l8
+[5.114s] Invoking command in '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone': CMAKE_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone:/opt/ros/foxy /usr/local/bin/cmake --install /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone
+[5.115s] -- Install configuration: ""
+[5.116s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/rectangle_shape
+[5.116s] -- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/star_shape
+[5.117s] -- Set non-toolchain portion of runtime path of "/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/star_shape" to ""
+[5.117s] -- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/circle_shape
+[5.118s] -- Set non-toolchain portion of runtime path of "/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/lib/control_drone/circle_shape" to ""
+[5.119s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/package_run_dependencies/control_drone
+[5.119s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/parent_prefix_path/control_drone
+[5.119s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/ament_prefix_path.sh
+[5.119s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/ament_prefix_path.dsv
+[5.119s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/path.sh
+[5.119s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/environment/path.dsv
+[5.119s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.bash
+[5.119s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.sh
+[5.119s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.zsh
+[5.119s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/local_setup.dsv
+[5.119s] -- Installing: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/package.dsv
+[5.120s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/ament_index/resource_index/packages/control_drone
+[5.120s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/cmake/control_droneConfig.cmake
+[5.120s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/cmake/control_droneConfig-version.cmake
+[5.120s] -- Up-to-date: /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone/share/control_drone/package.xml
+[5.121s] Invoked command in '/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone' returned '0': CMAKE_PREFIX_PATH=/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/px4_msgs:/home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/install/control_drone:/opt/ros/foxy /usr/local/bin/cmake --install /home/gusti/PenugasanPX4/MagangBayu24-PX4Simulation/build/control_drone
